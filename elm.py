@@ -92,8 +92,3 @@ print("Accuracy:", accuracy * 100)
 print("Specificity:", precision*100)
 print("Sensitivity:", recall*100)
 print("F1 Score:", f1*100)
-
-import pickle
-pickle.dump(elm, open('elm.pkl', 'wb')) #svm has the highest accuracy
-
-pickle.dump(Z, open('Z.pkl', 'wb')) #save the std scaler too
